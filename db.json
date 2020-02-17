@@ -1,12 +1,12 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "employee": [
+    { "id": 1, "firstName": "John", "lastName": "Smith" },
+    { "id": 2, "firstName": "John", "lastName": "Smith" },
+    { "id": 3, "firstName": "John", "lastName": "Smith" },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "shifts": [
+    { "id": 1, "employeeId": 1, "startDate": "05/25/2018T9:30", "endDate": "05/25/2018T11:30" },
+    { "id": 2, "employeeId": 1, "startDate": "05/26/2018T9:30", "endDate": "05/26/2018T11:30" }
   ],
   "profile": {
     "name": "typicode"
